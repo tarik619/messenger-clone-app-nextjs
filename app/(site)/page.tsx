@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import AuthForm from "./components/AuthForm";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ export default function Home() {
           Sign in to your account
         </h2>
       </div>
-      {/* authpart */}
+      <AuthForm />
     </div>
   );
 }
